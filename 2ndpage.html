@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Myfevicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Myfevicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Myfevicon/favicon-16x16.png">
+    <link rel="manifest" href="Myfevicon/site.webmanifest">
+    <link rel="mask-icon" href="Myfevicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="2ndpage.css">
+</head>
+
+<body>  
+    <form id="form1">  
+        <div class="container" >  
+        
+            <h1 style="text-align: center;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(150, 150, 247);">Enter your personal details</h1>
+
+
+            <hr>  
+            <label> Firstname: </label>   
+            <input type="text" id="fname" name="firstname" placeholder= "Firstname" size="15" required />   
+            <label> Lastname: </label>    
+            <input type="text" id="lname" name="lastname" placeholder="Lastname" size="15"required />   
+        
+            <div> 
+
+                <label>   
+                Gender :  
+                </label><br>  
+
+                <div class="radio">
+                    <input type="radio" id="gender" value="Male" name="gender" checked > Male
+                    <input type="radio" id="gender" value="Female" name="gender"> Female
+                    <input type="radio" id="gender" value="Other" name="gender"> Other
+                </div> 
+
+                <div>
+                <label> Date of Birth: </label>    
+                <input type="date" id="dob"required />
+                </div>
+        
+
+                <label>Photo  only jpg format: </label><input type="file" id="myimg" name="filename" accept="image/.png ,image/.jpg" required >
+
+            </div>  
+
+            <label>   
+            Phone :  
+            </label>  
+            <input type="text" name="country code" id="contrycd1" placeholder="Country Code"  value="+91" size="2" />   
+            <input type="text" name="phone" id="ph_no" placeholder="Phone No." size="10" required/>   
+            <label>
+            Current Address :  
+            </label>
+            <input type="text" id="cad" placeholder="Current Address" required>
+            <label for="email"><b>Email:</b></label>  
+            <input type="text" id="pemail" placeholder="Enter Email" name="email" required>  
+            
+
+        
+            
+            <h1 style="text-align: center;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(150, 150, 247);">Enter your educational details</h1>
+            <hr>
+
+            <label>Career Objectives: </label>
+            <input type="text"  id="objectives" placeholder="Objectives"  required>
+    
+
+            <div>
+                <label><u><h2>Academic History:</h2></u></label><br>
+
+                <div>
+                <input type="checkbox" checked required><label>10<sup>th</sup> Standard/Equivalent<br><br>
+                <label>Year of Passing: </label><input type="month" id="m1" required><br>
+                <label>Board:</label><input type="text" id="b1" placeholder="Board" required>
+                <label>Percentage:</label><input type="text" id="p1" placeholder="Percentage%" required>
+                </div>
+
+                <br>
+                <div>
+                <input type="checkbox" checked required><label>12<sup>th</sup>  Standard</label><br><br>
+                <label>Year of Passing: </label><input type="month" id="m2" required><br>
+                <label>Board:</label><input type="text" placeholder="Board" id="b2" required>
+                <label>Stream(PCM/PCB/Arts/Commerce):</label><input type="text" id="s2" placeholder="Stream" required>
+                <label>Percentage:</label><input type="text" id="p2" placeholder="Percentage%" required>
+                </div><br>
+
+                <div>
+                    <input type="checkbox" checked required><label>Diploma</label><br><br>
+                    <label>Year of Passing: </label><input type="month" id="m3" required><br>
+                    <label>Board:</label><input type="text" id="b3" placeholder="Board" required>
+                    <label>Stream:</label><input type="text" id="s3" placeholder="Stream" required>
+                    <label>Percentage:</label><input type="text" id="p3" placeholder="Percentage%" required>
+                    <label>Project Description:</label><input type="text" id="project" placeholder="Description" required>
+                </div> 
+
+
+                <div id="xtraqfli">
+                <label>
+                    Other Educational Qualifcation(if any):
+                </label>
+                <input type="text"  id="xtraq" placeholder="Enter Extra Qulification" required >
+                <!-- <div  id="addx">
+                    <button class="btn1" onclick="addnewx()">Add</button>
+                </div> -->
+                </div> 
+
+<!-- 
+                <div>
+                    <div class="experience">
+                        <input type="radio" id="f" value="f" name="f" checked > Freshers   
+                        <input type="radio" id="e" value="e" name="f"> Experienced     
+                    </div>
+
+                </div> -->
+
+
+            </div><br>
+
+
+
+            <div>
+                <label> Languages:</label><br>
+                <input type="checkbox" class="lang1" value="Hindi"><label>Hindi</label><br>
+                <input type="checkbox" class="lang1" value="English"><label>English</label><br>
+                <input type="checkbox" class="lang1" value="Bengali"><label>Bengali</label><br> 
+            </div><br> 
+               <!-- <button class="btn1"onclick="sv()">Confirm</button>/ -->
+
+            <div id="skill">
+            <label>
+                Skills:  
+            </label>
+            <input type="text" id="skills" placeholder="Skills"  required>
+            <!-- <div  id="adds">
+                <button class="btn1" onclick="addnews()">Add</button>
+            </div> -->
+            </div>
+
+            <div id="other">
+            <label>
+                Extra Curricular Activites:  
+            </label>
+            <input type="text" id="other_activity" placeholder="Other Activties"  required>
+            <!-- <div  id="addo">
+                <button class="btn1" onclick="addnewo()">Add</button>
+            </div> -->
+            </div>
+
+        
+            <h1 style="text-align: center;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(150, 150, 247);">Enter Other details</h1>
+            <hr>
+
+            <div>
+                <label> Nationality:</label>
+                <input type="text" id="Nationality" placeholder="Nationality" name="Nation" required> 
+                <label> Religion:</label>
+                <input type="text" id="Religion" placeholder="Religion" name=" Religion" required>
+                
+                <div id="hobbies">
+                    <label>Hobbies:</label>
+                <input type="text" id="Hobbies" placeholder="Hobbies" name="Hobbies" required>
+                <!-- <div  id="addh">
+                    <button class="btn1" onclick="addnewh()">Add</button>
+                </div> -->
+                </div>
+
+            
+                <label id="ref"> <b>Reference Details:</b> </label> <br>
+                <label>Name: </label>   
+                <input type="text" name="name" id="rname" placeholder= "Name" size="15" required />   
+                <label>Designation: </label>   
+                <input type="text" name="rdesg" id="rdesg" placeholder= "Enter Designation details"srequired />   
+                <label>Emails: </label>   
+                <input type="text" name="remail" id="remail" placeholder= "Email" required />   
+                <label>Phone No: </label>    
+                <input type="text" name="country code" id="contrycd2" placeholder="Country Code"  value="+91" size="2"/>   
+                <input type="text" name="phone" id="rph_no" placeholder="Phone no." size="10" required/>   
+                <label>Address: </label>
+                <input type="text" name="address" id="rad" placeholder= "Address" size="40" required /> 
+        
+                
+            </div>
+
+
+
+
+
+
+            <button type="submit" class="submitbtn" id="submit">Submit</button>  
+        </div>
+
+       
+    </form>  
+
+
+
+    <script src="2ndpage.js"></script>
+
+
+
+
+    </body>  
+</html>

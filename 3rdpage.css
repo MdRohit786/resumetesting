@@ -1,0 +1,96 @@
+body{
+    padding: 20px;
+    background-color: rgb(126, 135, 141);
+ 
+}
+
+label{
+    color: rgb(10, 2, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+}
+
+.container{
+    padding-top: 50px;
+    padding-left: 55px;
+    padding-right: 60px;
+    width: 90%;
+    float: left;
+    
+}
+
+.lcontainer{
+
+   
+    width:34%;
+    float: left;
+    text-align: center;
+    /* margin-right: 70%; */
+    background-color: rgb(143, 168, 250);
+    height:100%;
+   
+    
+}
+
+
+.rcontainer{
+
+   
+   width:100%;
+   float: right;
+   /* margin-left: 30% ; */
+   /* text-align: center; */
+   background-color: rgb(208, 218, 250);
+   height: 100%;
+   box-shadow: 20px 20px 20px rgb(43, 42, 42);
+   
+ 
+}
+
+.myimg{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+@media print{
+    body *{
+        visibility: hidden;;
+    }
+    .rcontainer, .rcontainer *{
+        visibility: visible;
+    }
+}
+
+
+.btn2{  
+    align-self: centers;
+    font-size:medium;
+    background-color: #a261c0;  
+    color: white;  
+    padding: 10px;  
+    margin: 5px 0 22px 0; 
+    display: inline-block;
+    border: none;
+    border-radius: 3px;  
+    cursor: pointer;  
+    width: 20%;  
+    opacity: 0.9;  
+    
+  }  
+  .btn2:hover {  
+    background-color: #7d61c0;  
+    opacity: 1;  
+  }  
+  
+  #Print{
+    position: relative;
+    left: 30%;
+  }
+
+  #exit{
+    position: relative;
+    left: 30%;
+  }

@@ -1,0 +1,93 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgb(96, 255, 215);  
+    padding: 15px;
+  }  
+  
+  .container {  
+    padding: 200px;  
+    background-color:rgb(10, 10, 10); 
+    border: none;
+    border-radius: 40px; 
+  }  
+
+  label{
+    color: blanchedalmond;
+  }
+
+  .radio{
+    color: #f1f1f1;
+  }
+
+  .experience{
+    color: #f1f1f1;
+  }
+
+  input[type=file]{
+    background: #dff394;
+  }
+  input[type=text],textarea{  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    border-radius: 3px;
+    background: #bdbaba;  
+  }  
+  input[type=text]:focus,textarea:focus {  
+    background-color: rgb(204, 173, 152);  
+    border:inset;
+    border-radius: 5px;
+    border-color: rgb(255, 3, 142);
+    outline: none;  
+  }  
+  input[type=text]:hover,textarea:hover{
+    background-color: rgb(243, 237, 158);  
+  }
+
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+    width: 103%;
+  }  
+
+
+  .btn1{
+    align-self: centers;
+    font-size:medium;
+    background-color: #61c094;  
+    color: white;  
+    padding: 15px;  
+    margin: 5px 0 22px 0; 
+    display: inline-block;
+    border: none;
+    border-radius: 3px;  
+    cursor: pointer;  
+    width: 20%;  
+    opacity: 0.9;
+  }
+  .btn1:hover {  
+    background-color: lightcoral;  
+  }
+  .submitbtn{  
+    font-size: larger;
+    background-color: #4c93af;  
+    color: white;  
+    padding: 15px;  
+    margin: 5px 0 22px 0; 
+    display: inline-block;
+    border: none;
+    border-radius: 3px;  
+    cursor: pointer;  
+    width: 103%;  
+    opacity: 0.9; 
+    
+  }  
+  .submitbtn:hover {  
+    opacity: 1;
+    box-shadow: 2px 2px 1px rgb(200, 238, 240);
+  }  
